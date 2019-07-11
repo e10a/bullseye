@@ -1,5 +1,5 @@
 //
-//  AuthorViewController.swift
+//  AboutAuthorViewController.swift
 //  BullsEye
 //
 //  Created by e10a on 7/10/19.
@@ -12,5 +12,9 @@ class AboutAuthorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func close() {
+        dismiss(animated: true, completion: nil)
     }
 }
